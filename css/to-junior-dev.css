@@ -1,0 +1,70 @@
+img.fullWidth {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    padding-left: -20px;
+}
+
+.juniorDevSectionPadding {
+    padding: 12px 12px 0 12px ;
+}
+
+.profileImage {
+    width: 40px;
+    height: 40px;
+}
+
+.profileInfo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 346px;
+    max-height: 42px;
+    gap: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    height: 42px;
+}
+
+.profile-subtitle{
+    font-size: 12px;
+    color: #717171;
+    font-weight: 300;
+}
+
+.emoji-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.emoji {
+    display: flex;
+    gap: 8px;
+}
+
+.mainTitle {
+    font-size: 30px;
+}
+
+.tagSection {
+    display: flex;
+    gap: 20px;
+}
+
+.tags{
+    background: transparent;
+    color:#717171;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 300;
+    font-size: 15px;
+}
+
