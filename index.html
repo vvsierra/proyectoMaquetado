@@ -1,74 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="./css/to-junior-dev.css">
-  <title>DEV Community</title>
-</head>
-
-<body>
-  <section>
-    <img src="/assets/red_horizon.jpg" class="fullWidth" alt="red mountains at the horizon" />
-    <div class="juniorDevSectionPadding">
-      <aside>
-        <div class="profileInfo">
-          <img src="/assets/rounded-profile.png" class="profileImage" alt="profile picture of a guy smiling">
-          <div class="column">
-            <h3 style="font-size: 16px">Mateusz Charytoniuk</h3>
-            <h4 class="profile-subtitle">Posted on Nov 15</h4>
-          </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/to-junior-dev.css" />
+    <title>DEV Community</title>
+  </head>
+  <body>
+    <header>
+      <section class="hamburgerContainer">
+        <div class="hamburger">
+          <i class="fa-solid fa-bars" style="font-size: 25px"></i>
+        </div>
+        <img src="./assets/dev.png" class="logo" alt="logo" />
+        <div class="inputContainer">
+          <input type="text" placeholder="Search..." class="inputNav" /><i
+            class="fa-solid fa-magnifying-glass inputGlass"
+            style="font-size: 20px"
+          ></i>
+        </div>
+      </section>
+      <section class="searchContainer">
+        <div class="search">
+          <i
+            class="fa-solid fa-magnifying-glass glassIcon"
+            style="font-size: 25px"
+          ></i>
         </div>
 
-        <div class="emoji-section">
-          <div class="emoji">
-            <p>💖</p>
-            <p>120</p>
-          </div>
-
-          <div class="emoji">
-            <p>🦄</p>
-            <p>6</p>
-          </div>
-
-          <div class="emoji">
-            <p>🤩</p>
-            <p>9</p>
-          </div>
-
-          <div class="emoji">
-            <p>🙌</p>
-            <p>18</p>
-          </div>
-
-          <div class="emoji">
-            <p>🔥</p>
-            <p>20</p>
-          </div>
+        <div class="logInHeader">
+          <a href="/">Log in</a>
         </div>
+        <a href="/" id="createAccountHeader">Create account</a>
+      </section>
+    </header>
+    <main>
+      <aside class="asideLeft">
+        <section class="logInBox">
+          <h2 class="titleLogIn">
+            DEV Community is a community of 1,192,404 amazing developers
+          </h2>
+          <p>
+            We&#39;re a place where coders share, stay up-to-date and grow their
+            careers.
+          </p>
+          <div class="logInButtons">
+            <a href="/" id="createAccountBtn">Create account</a>
+            <a href="/" id="logInAside">Log In</a>
+          </div>
+        </section>
+        <nav class="asideNav">
+          <ul>
+            <li>
+              <a href="/"><i class="fa-solid fa-house"></i>Home</a>
+            </li>
+            <li>
+              <a href="/"><i class="fa-solid fa-microphone"></i>Podcasts</a>
+            </li>
+            <li>
+              <a href="/"><i class="fa-solid fa-video"></i>Video</a>
+            </li>
+            <li>
+              <a href="/"><i class="fa-solid fa-tag"></i>Tags</a>
+            </li>
+            <li>
+              <a href="/"><i class="fa-regular fa-lightbulb"></i>FAQ</a>
+            </li>
+            <li>
+              <a href="/"><i class="fa-solid fa-bag-shopping"></i>Forem Shop</a>
+            </li>
+            <li>
+              <a href="/"><i class="fa-brands fa-dev"></i>About</a>
+            </li>
+            <li>
+              <a href="/"><i class="fa-solid fa-circle-notch"></i>Contact</a>
+            </li>
+            <li>
+              <a href="/"><i class="fa-solid fa-book-open"></i>Guides</a>
+            </li>
+            <li>
+              <a href="/"
+                ><i class="fa-regular fa-face-grimace"></i>Software
+                comparisons</a
+              >
+            </li>
+          </ul>
+          <section class="other">
+            <h2>Other</h2>
+            <ul>
+              <li>
+                <a href="/"
+                  ><i class="fa-regular fa-thumbs-up"></i>Code of Conduct</a
+                >
+              </li>
+              <li>
+                <a href="/"
+                  ><i class="fa-regular fa-face-laugh"></i>Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="/"><i class="fa-regular fa-eye"></i>Terms of Use</a>
+              </li>
+            </ul>
+          </section>
+          <section class="asideIcons">
+            <i class="fa-brands fa-twitter"></i>
+
+            <a href="/"><i class="fa-brands fa-facebook"></i></a>
+
+            <a href="/"><i class="fa-brands fa-github"></i></a>
+
+            <a href="/"><i class="fa-brands fa-instagram"></i></a>
+
+            <a href="/"> <i class="fa-brands fa-twitch"></i></a>
+
+            <a href="/"><i class="fa-brands fa-mastodon"></i></a>
+          </section>
+          <br />
+        </nav>
       </aside>
-      <article>
-        <h1 class="mainTitle">To Junior Developers</h1>
-        <aside class="tagSection">
-          <p class="tags">#programming</p>
-          <p class="tags">#beginners</p>
-          <p class="tags">#career</p>
-          <p class="tags">#productivity</p>
-        </aside>
-        <p>I have 15 years of experience, coded in various languages, and solved multiple problems. I started my career
-          when being a software developer was a hot commodity.</p>
-        <p>Looking at what is happening around us, I have to say a few things, and I will stay realistic. Things may
-          sound harsh, but it's better than divulging in some copium.</p>
-        <h1 class="mainTitle">Be Independent</h1>
-        <p>If you land a coding job, be independent. Ask only a few questions about how to do things in the tech stack.
-          People may tell you at first that there are no wrong questions, but in practice, there are. You should figure
-          out most things by yourself. </p>
-      </article>
-    </div>
-  </section>
-</body>
 
+      <section class="juniorCard">
+        <img
+          src="/assets/red_horizon.jpg"
+          class="fullWidth"
+          alt="red mountains at the horizon"
+        />
+        <div class="juniorDevSectionPadding">
+          <aside>
+            <div class="profileInfo">
+              <img
+                src="/assets/rounded-profile.png"
+                class="profileImage"
+                alt="profile picture of a guy smiling"
+              />
+              <div class="column">
+                <h3 style="font-size: 16px">Mateusz Charytoniuk</h3>
+                <h4 class="profile-subtitle">Posted on Nov 15</h4>
+              </div>
+            </div>
+          </aside>
+          <h1 class="mainTitle">To Junior Developers</h1>
+          <aside class="tagSection">
+            <p class="tags">#programming</p>
+            <p class="tags">#beginners</p>
+            <p class="tags">#career</p>
+            <p class="tags">#productivity</p>
+          </aside>
+
+          <div class="emoji-section">
+            <div class="setOfEmojis">
+              <p>💖</p>
+              <p>🦄</p>
+              <p>🤩</p>
+              <p>🙌</p>
+              <p>🔥</p>
+              <p class="emojiText"">286</p>
+              <p class="emojiText" style="margin-left: 10px">💬 97</p>
+            </div>
+            <div class="bookmarkSection">
+              4 min read
+              <img
+                src="assets/bookmark.png"
+                alt="bookmark icon"
+                width="15px"
+                height="15px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/acd114ba49.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
