@@ -11,7 +11,7 @@ img.fullWidth {
 }
 
 .juniorDevSectionPadding {
-  padding: 12px 12px 0 12px;
+  padding: 16px 16px 12px 16px;
 }
 
 .profileImage {
@@ -42,11 +42,10 @@ img.fullWidth {
 
 .emoji-section {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   flex-wrap: wrap;
-  justify-content: flex-start;
 }
 
 .emoji {
@@ -79,6 +78,17 @@ img.fullWidth {
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+.setOfEmojis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emojiText {
+  font-size: 12px;
+  color: #717171;
 }
 
 .bookmarkSection {
