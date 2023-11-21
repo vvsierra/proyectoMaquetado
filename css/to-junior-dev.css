@@ -90,6 +90,7 @@ img.fullWidth {
     flex-wrap: wrap;
     font-weight: 300;
     font-size: 14px;
+    padding: 5px;
 }
 
 .tags:hover {
@@ -109,6 +110,7 @@ img.fullWidth {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2px 1 2px 1;
 }
 
 .emojiText {
@@ -121,6 +123,7 @@ img.fullWidth {
     color: #717171;
     display: flex;
     gap: 10px;
+    padding: 5px;
 }
 
 .showOnTabletOnly {
@@ -141,6 +144,6 @@ img.fullWidth {
     outline: #f5f5f5;
 }
 
-.setOfEmojis p:hover {
+.setOfEmojis:hover {
     background-color: #f5f5f5;
 }

@@ -127,3 +127,44 @@
 .widgetLinks:last-child {
     border-bottom: 1px solid lightgray;
 }
+
+.popularTags {
+    display: flex;
+}
+
+.popular {
+    width: 232px;
+    height: 300px;
+    overflow: scroll;
+    scrollbar-base-color: transparent;
+    padding: 8px 16px;
+}
+.popularTags h2 {
+    padding: 8px 16px;
+}
+
+.box1 {
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 16px;
+    margin-top: -10px;
+    text-decoration: none;
+}
+
+.dots {
+    justify-items: right;
+}
+
+strong {
+    color: #171717;
+}
+
+strong:hover {
+    color: blue;
+}
+
+.box1 a {
+    text-decoration: none;
+}
