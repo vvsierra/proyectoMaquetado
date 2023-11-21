@@ -1,23 +1,21 @@
-.sideCardContainer{
+.sideCardContainer {
     display: none;
 }
 
 @media only screen and (min-width: 1024px) {
-
     .sideCardContainer {
-      display: block; /* Oculta el elemento en dispositivos con un ancho de pantalla de 767 píxeles o menos (por ejemplo, tabletas y móviles) */
+        display: block; /* Oculta el elemento en dispositivos con un ancho de pantalla de 767 píxeles o menos (por ejemplo, tabletas y móviles) */
     }
-    
 }
 
 .sideCard {
-    width: 308px;
+    min-width: 230px;
+    max-width: 325px;
     height: 512px;
     background-color: #fff;
     border-radius: 10px;
     color: black;
     padding: 10px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -75,26 +73,25 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    overflow:hidden;
+    overflow: hidden;
     padding: 0px 16px 16px 16px;
     margin: 8px 0px 16px 0px;
     border-radius: 10px;
     padding: 10px;
     margin: 8px 0 16px 0;
     justify-content: flex-start;
-    
 }
-  
-  .widget a {
+
+.widget a {
     text-decoration: none;
     color: black;
-  }
+}
 
-  .widget a:hover { 
+.widget a:hover {
     color: blue;
-  }
+}
 
-  .widget h4 {
+.widget h4 {
     width: 210px;
     height: 21.594px;
     font-family: monospace;
@@ -103,33 +100,30 @@
     font-weight: 600;
     background-color: #f5f5f5;
     padding: 0;
-  }
-  
-  .widgetList {
+}
+
+.widgetList {
     display: flex;
     width: 170px;
-    height: 72.000px;
+    height: 72px;
     flex-direction: column;
     margin-top: 0;
-  }
-  
-   .widgetLinks {
+}
+
+.widgetLinks {
     justify-items: center;
     width: 300px;
-    height: 72.000px;
-      padding: 16px;
-      color: #404040;
-      font-size: 16px;
-      border-bottom: 0.0667px solid #f5f5f5;
-  }
-  
- .widgetLinks:hover {
-    background-color: white;
-  }
-
-.widgetLinks:last-child{
-     
-        border-bottom: 1px solid black;
+    height: 72px;
+    padding: 16px;
+    color: #404040;
+    font-size: 16px;
+    border-bottom: 0.0667px solid #f5f5f5;
 }
-  
-  
+
+.widgetLinks:hover {
+    background-color: white;
+}
+
+.widgetLinks:last-child {
+    border-bottom: 1px solid black;
+}
