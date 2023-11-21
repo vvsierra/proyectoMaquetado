@@ -1,5 +1,5 @@
 .juniorCard {
-    background-color: #fff;
+    background-color: #f5f5f5;
     margin-bottom: 10px;
 }
 
@@ -16,6 +16,9 @@ img.fullWidth {
 
 .juniorDevSectionPadding {
     padding: 16px 16px 12px 16px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
 
     @media (min-width: 1024px) {
         padding: 20px;
@@ -25,6 +28,7 @@ img.fullWidth {
 .profileImage {
     width: 40px;
     height: 40px;
+    border-radius: 50px;
 }
 
 .profileInfo {
@@ -69,6 +73,10 @@ img.fullWidth {
     }
 }
 
+.mainTitle:hover {
+    color: blue;
+}
+
 .tagSection {
     display: flex;
     gap: 20px;
@@ -82,6 +90,12 @@ img.fullWidth {
     flex-wrap: wrap;
     font-weight: 300;
     font-size: 14px;
+}
+
+.tags:hover {
+    background-color: #71717120;
+    outline: 1.5px solid #71717170;
+    border-radius: 5px;
 }
 
 .commentSection {
@@ -120,4 +134,13 @@ img.fullWidth {
     @media (min-width: 1024px) {
         padding-left: 40px;
     }
+}
+
+.bookmarkSection img:hover {
+    background-color: #f5f5f5;
+    outline: #f5f5f5;
+}
+
+.setOfEmojis p:hover {
+    background-color: #f5f5f5;
 }
