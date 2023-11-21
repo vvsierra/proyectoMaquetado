@@ -32,6 +32,9 @@ img.fullWidth {
     border-radius: 50px;
 }
 
+.mainTitle:hover {
+    color: blue;
+}
 .profileInfo {
     display: flex;
     justify-content: flex-start;
@@ -66,6 +69,10 @@ img.fullWidth {
     gap: 8px;
 }
 
+.setOfEmojis:hover {
+    background-color: #f5f5f5;
+}
+
 .mainTitle {
     font-size: 20px;
     margin-top: 10px;
@@ -87,6 +94,12 @@ img.fullWidth {
     flex-wrap: wrap;
     font-weight: 300;
     font-size: 14px;
+}
+
+.tags:hover {
+    background-color: #71717140;
+    border: #717171;
+    border-radius: 10%;
 }
 
 .commentSection {
